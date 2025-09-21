@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #65c5a7;
+  color: #fff;
+}
+
+.header-bg {
+  background: #65c5a7;
+  padding: 40px 0 10px 0;
+  position: relative;
+}
+.sari-title {
+  font-family: 'Yeseva One', serif;
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #fff;
+  background: url('img/waves.svg') no-repeat center top;
+  background-size: cover;
+  margin: 0;
+  z-index: 2;
+  position: relative;
+}
+
+.categories-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: #fff;
+  padding: 0.5rem 0;
+}
+.category-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.categorias-section {
+  background: #fff;
+  color: #65c5a7;
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+}
+.categorias-title {
+  font-family: 'Yeseva One', serif;
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+}
+.leaf {
+  font-size: 2rem;
+  color: #65c5a7;
+}
+.categorias-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.categoria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.cat-circle {
+  background: #65c5a7;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.4rem;
+  box-shadow: 0 0 10px rgba(101,197,167,0.2);
+}
+.cat-circle img {
+  width: 50px;
+  height: 50px;
+}
+
+.compra-section {
+  background: #173c37;
+  padding: 2rem 1rem;
+  color: #fff;
+  text-align: center;
+}
+.compra-title {
+  font-family: 'Yeseva One', serif;
+  font-size: 2.3rem;
+  margin-bottom: 0.7rem;
+}
+.compra-desc {
+  font-size: 1.2rem;
+  margin-bottom: 1.8rem;
+}
+.compra-zonas {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.zona {
+  background: #173c37;
+  border-radius: 18px;
+  padding: 1.2rem;
+  min-width: 260px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  border: 2px solid #65c5a7;
+  margin-bottom: 1rem;
+}
+.zona-label {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: #65c5a7;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.15em 0.6em;
+  margin-bottom: 0.5rem;
+}
+.zona-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  font-size: 1.05rem;
+  margin-top: 0.5rem;
+}
+.zona-icon {
+  width: 38px;
+  height: 38px;
+}
+
+.detalles-section {
+  background: #173c37;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem 1.5rem 1rem;
+  position: relative;
+}
+.detalles-title {
+  font-family: 'Yeseva One', serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+.flores {
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+}
+.flores img {
+  width: 90px;
+  height: 90px;
+  opacity: 0.8;
+}
+
+.footer {
+  background: #101817;
+  color: #fff;
+  padding: 1.2rem 1rem 1rem 1rem;
+  text-align: center;
+  font-size: 1rem;
+  border-top: 3px solid #65c5a7;
+}
+.footer-contactos {
+  margin-bottom: 0.5rem;
+}
+.footer-redes {
+  margin-top: 0.3rem;
+}
+.footer-ig {
+  color: #65c5a7;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .categories-images {
+    flex-wrap: wrap;
+  }
+  .categorias-list, .compra-zonas, .flores {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .categoria, .zona {
+    min-width: unset;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
